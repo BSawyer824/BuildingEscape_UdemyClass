@@ -2,4 +2,6 @@ D:\Epic Games\Documents\Unreal Projects\BuildEscape\Intermediate\Build\Win64\UE4
 D:\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 D:\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 D:\Epic Games\Documents\Unreal Projects\BuildEscape\Source\BuildEscape/OpenDoor.h
+D:\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/TriggerVolume.h
+D:\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TriggerVolume.generated.h
 D:\Epic Games\Documents\Unreal Projects\BuildEscape\Intermediate\Build\Win64\UE4Editor\Inc\BuildEscape\OpenDoor.generated.h
