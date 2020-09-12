@@ -26,20 +26,28 @@ class BUILDESCAPE_API UOpenDoor : public UActorComponent {
 		// Called every frame
 		virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 		void OpenDoor(float DeltaTime);
+		void CloseDoor(float DeltaTime);
 
 	private:
 
 		float InitialYaw;
 		float CurrentYaw;
+		AActor* ActorThatOpens;
+		float DoorLastOpened = 0.f;
 
 		UPROPERTY(EditAnywhere)
-		float TargetYaw = -90.f;
-		
+		float OpenAngle = -90.f;
+
+		UPROPERTY(EditAnywhere)
+		float DoorOpenSpeed = 0.75;
+
+		UPROPERTY(EditAnywhere)
+		float DoorCloseSpeed = 2.5f;
+
+		UPROPERTY(EditAnywhere)
+		float DoorCloseDelay = 0.5f;
+
 		UPROPERTY(EditAnywhere)
 		ATriggerVolume* PressurePlate;
-
-		UPROPERTY(EditAnywhere)
-		AActor* ActorThatOpen;
-
 		
 };
